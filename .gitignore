@@ -87,8 +87,7 @@ Desktop.ini
 baidu_credentials_local.h
 *.env
 
-# PCB project temp
-PCB/*.epro2
+
 
 # compile_commands.json (IDE-specific)
 compile_commands.json

@@ -1,0 +1,94 @@
+# Build outputs
+build/
+Build/
+out/
+bin/
+
+# Qt
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+
+# Compiled Object files
+*.o
+*.obj
+*.slo
+*.lo
+*.ko
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries (non-embedded)
+*.lib
+*.la
+*.dll
+*.dylib
+
+# Shared objects - ignore globally but allow 3rdparty cross-compile libs
+*.so
+*.so.*
+!qt_car_ui/include/3rdparty/**/*.so
+!qt_car_ui/include/3rdparty/**/*.a
+!qt_car_ui/include/lib/*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Keil MDK-ARM build artifacts
+rv1106_sensor/MDK-ARM/rv1106_sensor/
+rv1106_sensor/MDK-ARM/Listings/
+rv1106_sensor/MDK-ARM/Objects/
+rv1106_sensor/MDK-ARM/*.uvguix.*
+rv1106_sensor/MDK-ARM/*.bak
+
+# Sample common build artifacts
+qt_car_ui/include/common/*.o
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.trae/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# Secrets
+baidu_credentials_local.h
+*.env
+
+# PCB project temp
+PCB/*.epro2
+
+# compile_commands.json (IDE-specific)
+compile_commands.json
